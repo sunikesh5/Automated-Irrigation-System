@@ -1,1 +1,3 @@
-# Automated_Irrigation_system
+# Automated Irrigation System
+
+The project involves creating a prototype for an automated irrigation system that utilizes temperature and humidity as variables. It is designed using a DHT22 sensor, Arduino Uno board, a board with a MOSFET transistor, an LCD 162, and a motor. The functionality of the device is as follows: The DHT22 sensor initiates sensing and transmits the data to the Arduino. The Arduino, in turn, sends the readings to the LCD 162. With a conditional variable declared in the Arduino programming, if the sensor detects a temperature above 33 degrees Celsius, the Arduino activates a digital output to the MOSFET circuit, triggering the motor pump. Conversely, if the sensor detects a temperature below 30 degrees, the digital output is deactivated, turning off the pumping equipment, and initiating another sensing cycle.
